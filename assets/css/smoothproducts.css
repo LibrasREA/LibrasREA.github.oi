@@ -1,21 +1,20 @@
-html,
-body {
+html, body {
   height: 100%;
   width: 100%;
   background-color: #fff;
 }
 
-.navbar {
+.navbar{
   height: 100px;
-  background-color: #5da392;
-  border-bottom: 1px solid #3d665c;
+  background-color: #5DA392  ;
+  border-bottom: 1px solid #3D665C  ;
   font-color: #fff;
   border-right: 0;
   border-left: 0;
 }
 
-.nav-item {
-  background-color: #5da392;
+.nav-item{
+  background-color: #5DA392  ;
   max-width: 100%;
   max-height: auto;
   font-color: #fff;
@@ -23,41 +22,44 @@ body {
   border-left: 0;
 }
 
-.container-logo {
+.container-logo{
   display: inline-block;
   top: -3px;
   height: 70px;
   position: relative;
 }
 
+
 .title {
   font-size: 45px;
   font-weight: bold;
   font-family: Montserrat;
-  color: #578b8d;
-  text-shadow: #3d665c;
+  color: #578B8D;
+  text-shadow: #3D665C  ;
   text-align: center;
+
 }
 
 .subtitle {
   font-weight: bold;
   font-family: Montserrat;
-  color: #578b8d;
-  text-shadow: #ccc;
+  color: #578B8D;
+  text-shadow: #ccc ;
 }
 
 .subtitle2 {
   font-weight: normal;
   font-family: Montserrat;
-  color: #578b8d;
-  text-shadow: #ccc;
+  color: #578B8D  ;
+  text-shadow: #ccc ;
 }
 
-.subtitle3 {
+.subtitle3{
   font-weight: bold;
   font-family: Montserrat;
-  color: #3e5899;
+  color: #3E5899;
   text-shadow: #ccc;
+
 }
 
 .textbutton {
@@ -77,25 +79,25 @@ body {
 .links {
   font-weight: normal;
   font-family: Montserrat;
-  color: #3e5899;
+  color: #3E5899  ;
   text-decoration: none;
 }
 
 .links:visited {
   font-family: Montserrat;
-  color: #578b8d;
+  color: #578B8D  ;
   text-decoration: none;
 }
 
 .links:hover {
   font-family: Montserrat;
-  color: #95c2a6;
+  color: #95C2A6 ;
   text-decoration: none;
 }
 
-.configpagination {
+.configpagination{
   font-family: Montserrat;
-  color: #3e5899;
+  color:#3E5899;
   text-decoration: none;
 }
 .sp-loading {
@@ -132,29 +134,27 @@ body {
   max-width: 50px;
 }
 
-.sp-thumbs a:link,
-.sp-thumbs a:visited {
+.sp-thumbs a:link, .sp-thumbs a:visited {
   width: 50px;
   height: 50px;
   overflow: hidden;
-  opacity: 0.3;
+  opacity: .3;
   display: inline-block;
   background-size: cover;
   background-position: center;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
 }
 
 .sp-thumbs a:hover {
   opacity: 1;
 }
 
-.sp-thumbs a:active,
-.sp-current {
-  opacity: 1 !important;
+.sp-thumbs a:active, .sp-current {
+  opacity: 1!important;
   position: relative;
 }
 
@@ -191,7 +191,7 @@ body {
   height: 100%;
   width: 100%;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, .9);
   z-index: 1031;
   display: none;
   cursor: pointer;
@@ -209,8 +209,7 @@ body {
   border: 2px solid #fff;
 }
 
-#sp-prev,
-#sp-next {
+#sp-prev, #sp-next {
   position: absolute;
   top: 50%;
   margin-top: -25px;
@@ -224,7 +223,7 @@ body {
   width: 50px;
   height: 50px;
   box-sizing: border-box;
-  transition: 0.2s;
+  transition: .2s;
 }
 
 #sp-prev {
@@ -232,7 +231,7 @@ body {
 }
 
 #sp-prev:before {
-  content: "";
+  content: '';
   border: 7px solid transparent;
   border-right: 15px solid #fff;
   position: absolute;
@@ -245,7 +244,7 @@ body {
 }
 
 #sp-next:before {
-  content: "";
+  content: '';
   border: 7px solid transparent;
   border-left: 15px solid white;
   position: absolute;
@@ -253,8 +252,7 @@ body {
   left: 18px;
 }
 
-#sp-prev:hover,
-#sp-next:hover {
+#sp-prev:hover, #sp-next:hover {
   background: #444;
 }
 
@@ -265,10 +263,10 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-  #sp-prev,
-  #sp-next {
+  #sp-prev, #sp-next {
     top: auto;
     margin-top: 0;
     bottom: 25px;
   }
 }
+
