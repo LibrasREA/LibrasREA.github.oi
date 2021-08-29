@@ -48,7 +48,7 @@
             <section class="clean-block" style="padding-bottom: 0px;">
                <div class="container">
                   <div class="block-heading" style="padding-top: 0;margin-top: 40px;">
-                     <h3 class="subtitle3">Dúvidas e Sugestões</h3>
+                     <h3 class="subtitle3">Dúvidas e sugestões</h3>
                      <p style="padding-top: 0; margin-top: -10px;">Possui uma dúvida ou sugestão? Preencha o formulário abaixo!</p>
                   </div>
                </div>
@@ -59,19 +59,18 @@
                   <div class="block-heading" style="padding-top: 0;margin-top: 20px;">
                      <form action="https://formsubmit.co/readaelnct@gmail.com" method="POST">
                         <input type="hidden" name="_captcha" value="false">
-                        <div class="mb-3">
-                           <label class="form-label"><strong>Nome:</strong></label>
-                           <input type="text" name="name" class="form-control" aria-describedby="inputGroupPrepend">
+                        <div class="form-row">
+                           <div class="col-6">
+                              <input name="Nome" type="name" class="form-control" placeholder="Nome">
+                           </div>
+                           <div class="col-6">
+                              <input name="Email" type="email" class="form-control" id="email" placeholder="E-mail">
+                           </div>
                         </div>
-                        <div class="mb-3">
-                           <label class="form-label"><strong>Email:</strong></label>
-                           <input type="email" name="email" class="form-control" placeholder="email@exemplo.com" aria-describedby="emailHelp">      
+                        <div class="form-group" style="padding-top: 10px;">
+                           <textarea name="Descrição" class="form-control" id="descricao" placeholder="Dúvida ou sugestão" style="min-height: 200px;"></textarea>
                         </div>
-                        <div class="mb-3">
-                           <label class="form-label"><strong>Comentário/Sugestão:</strong></label>
-                           <textarea class="form-control" name="Texto" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-block btn-primary">Enviar</button>
                      </form>
                   </div>
                </div>

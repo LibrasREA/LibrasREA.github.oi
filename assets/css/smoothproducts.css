@@ -256,6 +256,12 @@ html, body {
   background: #444;
 }
 
+#search{
+   margin: 5px;
+   border-radius: 5px;
+   border: 0px;
+}
+
 @media screen and (max-width: 400px) {
   .sp-wrap {
     margin: 0 0 15px 0;

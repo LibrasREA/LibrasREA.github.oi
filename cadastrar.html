@@ -53,37 +53,31 @@
       <section class="clean-block" style="padding-bottom: 30px;">
          <div class="container">
             <div class="block-heading" style="padding-top: 0;margin-top: 40px;">
-               <h3 class="subtitle3">Cadastro de Novas Palavras</h3>
-               <p style="padding-top: 0; margin-top: -10px;">Deseja contribuir com material para o nosso vocabulário aberto? Preencha o formulário abaixo!</p>
+               <h3 class="subtitle3">Sugestões de novas palavras</h3>
+               <p style="padding-top: 0; margin-top: -10px;">Deseja contribuir com material para o nosso vocabulário aberto? Preencha o formulário abaixo com palavras que considera necessárias na área de tecnologia</p>
             </div>
          </div>
          <div class="container">
-            <div class="block-heading" style="padding-top: 0;margin-top: 40px;">
-               <h4 class="subtitle3">Página em Construção...</h3>
-            </div>
-            <form>
+            <form action="https://formsubmit.co/readaelnct@gmail.com" method="POST">
+               <input type="hidden" name="_captcha" value="false">
                <div class="form-row">
                   <div class="col-6">
-                     <input type="name" class="form-control" placeholder="Nome">
+                     <input name="Nome" type="name" class="form-control" placeholder="Nome">
                   </div>
                   <div class="col-6">
-                     <input type="email" class="form-control" id="email" placeholder="E-mail">
+                     <input name="Email" type="email" class="form-control" id="email" placeholder="E-mail">
                   </div>
                </div>
                <div class="form-row" style="padding-top: 10px;">
                   <div class="col-12">
-                     <input type="word" class="form-control" placeholder="Palavra ou Termo">
+                     <input name="Palavra" type="word" class="form-control" placeholder="Palavra ou Termo">
                   </div>
                </div>
                <div class="form-group" style="padding-top: 10px;">
-                  <textarea class="form-control" id="descricao" placeholder="Faça uma descrição da palavra ou termo" style="min-height: 200px;"></textarea>
+                  <textarea name="Descrição" class="form-control" id="descricao" placeholder="Faça uma descrição da palavra ou termo" style="min-height: 200px;"></textarea>
                </div>
-               <div class="form-group">
-                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
-               </div>
-               <button type="submit" class="btn btn-block btn-success">Enviar</button>
-         </div>
-         </form>
+               <button type="submit" class="btn btn-block btn-primary">Enviar</button>
+            </form>
          </div>
       </section>
    </main>
