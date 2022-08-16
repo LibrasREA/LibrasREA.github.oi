@@ -13,7 +13,7 @@ const palavras = [
    { nome: 'cookies' },
    { nome: 'cyberbullying' },
    { nome: 'drone' },
-   { nome: 'emoji' },
+   { nome: 'empresa' },
    { nome: 'google classroom' },
    { nome: 'google forms' },
    { nome: 'hashtag' },
