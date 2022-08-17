@@ -14,6 +14,7 @@ const palavras = [
    { nome: 'cyberbullying' },
    { nome: 'drone' },
    { nome: 'empresa' },
+   { nome: 'engenharia' },
    { nome: 'google classroom' },
    { nome: 'google forms' },
    { nome: 'hashtag' },
