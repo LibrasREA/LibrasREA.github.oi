@@ -29,7 +29,7 @@ const palavras = [
    { nome: 'podcast' },
    { nome: 'portal sophia' },
    { nome: 'print screen' },
-   { nome: 'renderização' },
+   { nome: 'rede social' },
    { nome: 'sistema embarcado' },
    { nome: 'smart' },
    { nome: 'spam' },
