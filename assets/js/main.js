@@ -27,7 +27,7 @@ const palavras = [
    { nome: 'microcontrolador' },
    { nome: 'newsletter' },
    { nome: 'pixel' },
-   { nome: 'podcast' },
+   { nome: 'popup' },
    { nome: 'portal sophia' },
    { nome: 'print screen' },
    { nome: 'rede social' },
