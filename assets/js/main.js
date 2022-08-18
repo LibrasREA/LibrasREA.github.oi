@@ -29,6 +29,7 @@ const palavras = [
    { nome: 'pixel' },
    { nome: 'popup' },
    { nome: 'portal sophia' },
+   { nome: 'pix' },
    { nome: 'print screen' },
    { nome: 'rede social' },
    { nome: 'sistema embarcado' },
