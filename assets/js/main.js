@@ -15,6 +15,7 @@ const palavras = [
    { nome: 'drone' },
    { nome: 'empresa' },
    { nome: 'engenharia' },
+   { nome: 'f&aacutebrica' },
    { nome: 'google classroom' },
    { nome: 'google forms' },
    { nome: 'hashtag' },
