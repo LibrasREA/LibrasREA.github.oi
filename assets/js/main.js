@@ -36,7 +36,7 @@ const palavras = [
    { nome: 'spam' },
    { nome: 'spotify' },
    { nome: 'streaming' },
-   { nome: 'trend' },
+   { nome: 'tecnologia' },
 ]
 
 const list = document.getElementById('list');
