@@ -32,6 +32,7 @@ const palavras = [
    { nome: 'spotify' },
    { nome: 'streaming' },
    { nome: 'tecnologia' },
+   { nome: 'tutorial' },
    { nome: 'wifi' },
 ]
 
