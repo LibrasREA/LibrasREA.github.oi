@@ -28,6 +28,7 @@ const palavras = [
    { nome: 'pix' },
    { nome: 'print screen' },
    { nome: 'rede social' },
+   { nome: 'site' },
    { nome: 'smart' },
    { nome: 'spam' },
    { nome: 'spotify' },
