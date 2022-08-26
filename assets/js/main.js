@@ -39,6 +39,7 @@ const palavras = [
    { nome: 'tutorial' },
    { nome: 'virtual' },
    { nome: 'wifi' },
+   { nome: 'youtube' },
 ]
 
 const list = document.getElementById('list');
