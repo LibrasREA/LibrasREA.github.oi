@@ -20,6 +20,7 @@ const palavras = [
    { nome: 'internet' },
    { nome: 'instagram' },
    { nome: 'kindle' },
+   { nome: 'link' },
    { nome: 'malware' },
    { nome: 'newsletter' },
    { nome: 'orkut' },
