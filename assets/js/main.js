@@ -21,6 +21,7 @@ const palavras = [
    { nome: 'kindle' },
    { nome: 'malware' },
    { nome: 'newsletter' },
+   { nome: 'orkut' },
    { nome: 'pixel' },
    { nome: 'popup' },
    { nome: 'portal sophia' },
