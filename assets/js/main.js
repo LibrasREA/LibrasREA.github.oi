@@ -18,6 +18,7 @@ const palavras = [
    { nome: 'hardware' },
    { nome: 'hashtag' },
    { nome: 'internet' },
+   { nome: 'instagram' },
    { nome: 'kindle' },
    { nome: 'malware' },
    { nome: 'newsletter' },
