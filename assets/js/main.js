@@ -10,11 +10,13 @@ const palavras = [
    { nome: 'cookies' },
    { nome: 'cyberbullying' },
    { nome: 'drone' },
+   { nome: 'digital' },
    { nome: 'empresa' },
    { nome: 'engenharia' },
    { nome: 'fabrica' },
    { nome: 'google classroom' },
    { nome: 'google forms' },
+   { nome: 'google maps' },
    { nome: 'hardware' },
    { nome: 'hashtag' },
    { nome: 'internet' },
@@ -40,6 +42,7 @@ const palavras = [
    { nome: 'virtual' },
    { nome: 'wifi' },
    { nome: 'youtube' },
+   { nome: 'zoom' },
 ]
 
 const list = document.getElementById('list');
