@@ -40,6 +40,7 @@ const palavras = [
    { nome: 'tecnologia' },
    { nome: 'tutorial' },
    { nome: 'virtual' },
+   { nome: 'whatsapp' },
    { nome: 'wifi' },
    { nome: 'youtube' },
    { nome: 'zoom' },
