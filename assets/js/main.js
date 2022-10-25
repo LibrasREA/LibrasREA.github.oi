@@ -27,10 +27,12 @@ const palavras = [
    { nome: 'malware' },
    { nome: 'newsletter' },
    { nome: 'orkut' },
+   { nome: 'picpay' }, 
+   { nome: 'pix' }, 
    { nome: 'pixel' },
    { nome: 'popup' },
    { nome: 'portal sophia' },
-   { nome: 'pix' },
+ 
    { nome: 'print screen' },
    { nome: 'rede social' },
    { nome: 'site' },
